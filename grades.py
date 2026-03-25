@@ -10,6 +10,9 @@ if __name__ == '__main__':
     scores = [88, 92, 75, 100, 63]
     print(f"Average: {calculate_average(scores)}")
 
+def high_low(scores):
+    """Return the highest and lowest scores."""
+    return max(scores), min(scores)
 def letter_grade(score):
  """Convert a numeric score to a letter grade."""
  if score >= 90:
