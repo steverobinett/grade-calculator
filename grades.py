@@ -25,3 +25,5 @@ def letter_grade(score):
     return "D"
  else:
     return "F"
+def sayHi():
+    print('Steve says hi!')
