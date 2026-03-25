@@ -8,5 +8,5 @@ if __name__ == '__main__':
     print(f"Average: {calculate_average(scores)}")
 
 def high_low(scores):
-"""Return the highest and lowest scores."""
-return max(scores), min(scores)
+    """Return the highest and lowest scores."""
+    return max(scores), min(scores)
